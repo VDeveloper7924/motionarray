@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="motionarray-icons" horiz-adv-x="1000" >
+<font-face font-family="motionarray-icons" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="900" descent="-100" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="curators-pick" unicode="&#xe800;" d="M533 900a71 71 0 0 1-67-43l-97-224c-10-24-33-40-59-42l-247-20a69 69 0 0 1-39-121l188-160a68 68 0 0 0 23-67l-58-238c-13-59 52-107 105-75l212 128a71 71 0 0 0 72 0l213-128c53-32 119 16 105 75l-57 238a68 68 0 0 0 22 67l187 160c48 39 22 116-40 121l-247 20c-26 2-49 18-59 42l-94 224a71 71 0 0 1-63 43z" horiz-adv-x="1061" />
+
+<glyph glyph-name="filter-grouped" unicode="&#xe801;" d="M900-100h-100v250h-100v100h300v-100h-100v-250z m-350 0h-100v500h100v-500z m-350 0h-100v350h-100v100h300v-100h-100v-350z m700 500h-100v500h100v-500z m-250 100h-300v100h100v300h100v-300h100v-100z m-450 0h-100v400h100v-400z" horiz-adv-x="1000" />
+
+<glyph glyph-name="tag" unicode="&#xe89b;" d="M520-100c-15 0-25 5-40 10-15 5-25 15-35 25l-435 435c-5 5-10 15-10 30v450c0 30 20 50 50 50h450c15 0 25-5 35-15l435-435c20-20 30-45 30-75 0-30-10-55-30-75l-375-375c-10-10-20-15-35-25-10 5-25 0-40 0z m-420 520l420-420 40-35-35 35 375 375 35 40-35-35-420 420h-380v-380z m150 180c-25 0-50 20-50 50s20 50 50 50h0c30 0 50-20 50-50s-20-50-50-50z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

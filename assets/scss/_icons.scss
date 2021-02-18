@@ -1,0 +1,712 @@
+/*------------------------------------*\
+    $ICON
+\*------------------------------------*/
+@font-face {
+  font-family: 'motionarray-icons';
+  src: url('~assets/fonts/icon-set/motionarray-icons.eot?v=4');
+  src: url('~assets/fonts/icon-set/motionarray-icons.eot?v=4')
+      format('embedded-opentype'),
+    url('~assets/fonts/icon-set/motionarray-icons.woff2?v=4') format('woff2'),
+    url('~assets/fonts/icon-set/motionarray-icons.ttf?v=4') format('truetype'),
+    url('~assets/fonts/icon-set/motionarray-icons.woff?v=4') format('woff'),
+    url('~assets/fonts/icon-set/motionarray-icons.svg?v=4') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* purgecss ignore */
+[class^='icon-'],
+[class*=' icon-'],
+.icon--font {
+  font-family: 'motionarray-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+* Icons
+*/
+.icon--subscription:before {
+  content: '\31';
+}
+
+.icon--update-details:before,
+.icon--share:before {
+  content: '\53';
+}
+
+.icon--search:before {
+  content: '\73';
+}
+
+.icon--sample-rate:before,
+.icon--sampleRate:before {
+  content: '\5c';
+}
+
+.icon--rss:before {
+  content: '\72';
+}
+
+.icon--resolution:before {
+  content: '\29';
+}
+
+.icon--question:before {
+  content: '\3f';
+}
+
+.icon--prefs:before {
+  content: '\50';
+}
+
+.icon--plugins:before {
+  content: '\70';
+}
+
+.icon--mp3:before,
+.icon--format:before {
+  content: '\4d';
+}
+
+.icon--more:before {
+  content: '\2e';
+}
+
+.icon--heart:before {
+  content: '\7d';
+}
+
+.icon--hd:before,
+.icon--resolution-hd:before {
+  content: '\68';
+}
+
+.icon--fps:before {
+  content: '\46';
+}
+
+.icon--facebook:before {
+  content: '\66';
+}
+
+.icon--edit:before {
+  content: '\65';
+}
+
+.icon--delete2:before {
+  content: '\35';
+}
+
+.icon--collection:before {
+  content: '\63';
+}
+
+.icon--close:before {
+  content: '\78';
+}
+
+.icon--check:before {
+  content: '\38';
+}
+
+.icon--calendar:before {
+  content: '\39';
+}
+
+.icon--bpm:before {
+  content: '\62';
+}
+
+.icon--arrow-up:before {
+  content: '\5e';
+}
+
+.icon--arrow-right:before {
+  content: '\3e';
+}
+
+.icon--vimeo:before {
+  content: '\76';
+}
+
+.icon--video:before,
+.icon--compression:before {
+  content: '\6d';
+}
+
+.icon--twitter:before {
+  content: '\74';
+}
+
+.icon--arrow-left:before {
+  content: '\3c';
+}
+
+.icon--arrow-down:before {
+  content: '\e81b';
+}
+
+.icon--version:before {
+  content: '\41';
+}
+
+.icon--resolution-4k:before {
+  content: '\34';
+}
+
+.icon--resolution-2k:before {
+  content: '\32';
+}
+
+.icon--tick:before {
+  content: '\54';
+}
+
+.icon--reply:before {
+  content: '\55';
+}
+
+.icon--download:before {
+  content: '\44';
+}
+
+.icon--delete:before {
+  content: '\58';
+}
+
+.icon--add-to:before {
+  content: '\2b';
+}
+
+.icon--circle:before {
+  content: '\4f';
+}
+
+.icon--premiere:before {
+  content: '\e903';
+}
+
+.cat-premiere-pro-templates,
+.cat-premiere-pro-presets,
+.cat-motion-graphics-templates {
+  .icon--version:before {
+    content: '\e903';
+  }
+}
+
+.cat-davinci-resolve-templates {
+  .icon--version:before {
+    content: '\e94b';
+  }
+}
+
+.cat-davinci-resolve-macros {
+  .icon--version:before {
+    content: '\e94b';
+  }
+}
+
+.cat-premiere-rush-templates {
+  .icon--version:before {
+    content: '\e952';
+  }
+}
+
+.cat-final-cut-pro-templates {
+  .icon--version:before {
+    content: '\e953';
+  }
+}
+
+.icon--dribbble:before {
+  content: '\e904';
+}
+
+.icon--flickr:before {
+  content: '\e905';
+}
+
+.icon--linkedin:before {
+  content: '\e906';
+}
+
+.icon--tumblr:before {
+  content: '\e907';
+}
+
+.icon--youtube:before {
+  content: '\e908';
+}
+
+.icon--behance:before {
+  content: '\e909';
+}
+
+.icon--instagram:before {
+  content: '\e90a';
+}
+
+.icon--upload2:before {
+  content: '\e90b';
+}
+
+.icon--megaphone-fill:before {
+  content: '\e90c';
+}
+
+.icon--megaphone-outline:before {
+  content: '\e90d';
+}
+
+.icon--reviews:before {
+  content: '\56';
+}
+
+.icon--bell:before {
+  content: '\59';
+}
+
+.icon--notifications:before {
+  content: '\60';
+}
+
+.icon--delete3:before {
+  content: '\e90e';
+}
+
+.icon--edit2:before {
+  content: '\e90f';
+}
+
+.icon--notification:before {
+  content: '\e910';
+}
+
+.icon--share-link:before {
+  content: '\e911';
+}
+
+.icon--share2:before {
+  content: '\e912';
+}
+
+.icon--tick2:before {
+  content: '\e913';
+}
+
+/** New icons 2017-04-09 **/
+.icon--bullet:before {
+  content: '\e914';
+}
+
+.icon--centered:before {
+  content: '\e915';
+}
+
+.icon--cross:before {
+  content: '\e916';
+}
+
+.icon--download2:before {
+  content: '\e917';
+}
+
+.icon--forward:before {
+  content: '\e918';
+}
+
+.icon--justified:before {
+  content: '\e919';
+}
+
+.icon--left-Aligned:before {
+  content: '\e91a';
+}
+
+.icon--link:before {
+  content: '\e91b';
+}
+
+.icon--numbered:before {
+  content: '\e91c';
+}
+
+.icon--plus:before {
+  content: '\e91d';
+}
+
+.icon--reorder:before {
+  content: '\e91e';
+}
+
+.icon--right-Aligned:before {
+  content: '\e91f';
+}
+
+.icon--settings-cog:before {
+  content: '\e920';
+}
+
+.icon--settings-slider:before {
+  content: '\e921';
+}
+
+.icon--up:before {
+  content: '\e922';
+}
+
+.icon--upload:before {
+  content: '\e923';
+}
+
+/** New icons 2017-04-27 **/
+.icon--calendar2:before {
+  content: '\39';
+}
+
+.icon--sort:before {
+  content: '\e92e';
+}
+
+.icon--p-about-section:before {
+  content: '\e924';
+}
+
+.icon--p-clients-section:before {
+  content: '\e926';
+}
+
+.icon--p-contact-form:before {
+  content: '\e927';
+}
+
+.icon--p-cover-section:before {
+  content: '\e928';
+}
+
+.icon--p-full-video-pictures:before {
+  content: '\e929';
+}
+
+.icon--p-gallery:before {
+  content: '\e92a';
+}
+
+.icon--p-left-video-or-picture:before {
+  content: '\e92b';
+}
+
+.icon--p-line-divider:before {
+  content: '\e92c';
+}
+
+.icon--p-right-video-or-picture:before {
+  content: '\e92d';
+}
+
+.icon--p-text-strap:before {
+  content: '\e92f';
+}
+
+.icon--p-two-video-or-picture:before {
+  content: '\e930';
+}
+
+/** New icons 2017-05-07 **/
+.icon--tutorials:before {
+  content: '\e931';
+}
+
+.icon--down:before {
+  content: '\e932';
+}
+
+.icon--play:before {
+  content: '\e933';
+}
+
+.icon--tick3:before {
+  content: '\e934';
+}
+
+.icon--play2:before {
+  content: '\e935';
+}
+
+/** New icon 2017-05-19 **/
+.icon--email:before {
+  content: '\e936';
+}
+
+/** New icon 2017-05-24 **/
+.icon--double-next:before {
+  content: '\e937';
+}
+
+/** New icon 2017-05-26 **/
+.icon--double-next2:before {
+  content: '\e938';
+}
+
+/** New icon 2017-08-13 **/
+.icon--forward2:before {
+  content: '\e939';
+}
+
+/** New icon 2018-01-07 **/
+.icon--fullscreen:before {
+  content: '\e93a';
+}
+
+.icon--volume-high:before {
+  content: '\e93b';
+}
+
+.icon--volume-low:before {
+  content: '\e93d';
+}
+
+.icon--volume-mute:before {
+  content: '\e93e';
+}
+
+.icon--pause:before {
+  content: '\e93c';
+}
+
+/** Missing classes for players, added 2018-05-22 **/
+.icon--volume-1:before {
+  content: '\e93f';
+}
+
+.icon--volume-2:before {
+  content: '\e940';
+}
+
+.icon--volume:before {
+  content: '\e941';
+}
+
+.icon--full-screen-2:before {
+  content: '\e942';
+}
+
+.icon--screen-full:before {
+  content: '\e949';
+}
+
+.icon--fullscreend-round:before {
+  content: '\e951';
+}
+
+.icon--fullscreen2:before {
+  content: '\e957';
+}
+
+.icon--enlarge:before {
+  content: '\e989';
+}
+
+.icon--play22:before {
+  content: '\ea15';
+}
+
+.icon--pause2:before {
+  content: '\ea16';
+}
+
+.icon--play3:before {
+  content: '\ea1c';
+}
+
+.icon--tux:before {
+  content: '\eabd';
+}
+
+.icon--rush-logo:before {
+  content: '\e952';
+}
+
+.icon--final-cut-pro-logo:before {
+  content: '\xe953';
+}
+
+/* New icons added 2018-05-22 **/
+.icon--expand:before {
+  content: '\e943';
+}
+
+.icon--pause3:before {
+  content: '\e944';
+}
+
+.icon--play4:before {
+  content: '\e945';
+}
+
+.icon--volume-high2:before {
+  content: '\e946';
+}
+
+.icon--volume-mute2:before {
+  content: '\e947';
+}
+
+.icon--camera:before {
+  content: '\e948';
+}
+
+.icon--unlimited:before {
+  content: '\e94a';
+}
+
+/* New icons added 2018-07-05 **/
+.icon--davinci-resolve:before {
+  content: '\e94c';
+}
+
+.icon--davinci-resolve-stroke:before {
+  content: '\e94b';
+}
+
+.icon--spinner2:before {
+  content: '\e97b';
+}
+
+.icon--plugins2:before {
+  content: '\e94d';
+}
+
+.icon--transitions:before {
+  content: '\e94e';
+}
+
+.icon--check2:before {
+  content: '\e94f';
+}
+
+.icon--marketplace:before {
+  content: '\e950';
+}
+
+.icon--stats:before {
+  content: '\e892';
+}
+
+.icon--seller-details:before {
+  content: '\e893';
+}
+
+.icon--details:before {
+  content: '\e896';
+}
+
+.icon--submissions:before {
+  content: '\e891';
+}
+
+.icon--wallet:before {
+  content: '\e894';
+}
+
+.icon--billing:before {
+  content: '\e899';
+}
+
+.icon--manage-subscription:before {
+  content: '\e898';
+}
+
+.icon--my-collections:before {
+  content: '\e897';
+}
+
+.icon--my-downloads:before {
+  content: '\e895';
+}
+
+.icon--my-uploads:before {
+  content: '\e890';
+}
+
+.icon--portfolio:before {
+  content: '\e88f';
+}
+
+.icon--review:before {
+  content: '\e88e';
+}
+
+.icon--storage:before {
+  content: '\e89a';
+}
+
+.icon--stats-2:before {
+  content: '\e901';
+}
+
+.icon--details-2:before {
+  content: '\64';
+}
+
+.icon--products:before {
+  content: '\e902';
+}
+
+.icon--wallet-2:before {
+  content: '\e900';
+}
+
+.icon--billing-2:before {
+  content: '\42';
+}
+
+/* Icons For Preview Card */
+.icon--download-1:before {
+  content: '\e888';
+}
+
+.icon--downloaded:before {
+  content: '\e889';
+}
+
+.icon--add-to-collection:before {
+  content: '\e88a';
+}
+
+.icon--added-to-collection:before {
+  content: '\e88b';
+}
+
+.icon--share-1:before {
+  content: '\e886';
+}
+
+.icon--trash:before {
+  content: '\e887';
+}
+
+.icon--star:before {
+  content: '\e88d';
+}
+
+.icon--megaphone-fill-1:before {
+  content: '\e88c';
+}
+
+.icon--tag:before {
+  content: '\e89d';
+}
+
+.icon--filter:before {
+  content: '\e89e';
+}

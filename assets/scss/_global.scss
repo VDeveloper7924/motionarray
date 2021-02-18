@@ -1,0 +1,298 @@
+body.open-mobile-menu {
+  overflow: hidden;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 1470px;
+}
+
+.gr {
+  margin: 0 auto;
+  padding: 0 30px;
+  position: relative;
+  max-width: 1470px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='number'],
+textarea {
+  color: #4a4a4a;
+  font-style: italic;
+  background-color: #fff;
+  border: 2px solid transparent;
+  box-shadow: #c9c9c9 0 0 0 1px;
+  -moz-box-shadow: #c9c9c9 0 0 0 1px;
+  -webkit-box-shadow: #c9c9c9 0 0 0 1px;
+  -webkit-appearance: none;
+
+  &:focus {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border-color: #999;
+    outline: none;
+  }
+}
+
+.border-ma-black-1 {
+  --border-opacity: 1;
+  border-color: #4a4a4a;
+  border-color: rgba(74, 74, 74, var(--border-opacity));
+}
+
+.border-ma-gray-3 {
+  --border-opacity: 1;
+  border-color: #999999;
+  border-color: rgba(153, 153, 153, var(--border-opacity));
+}
+
+.border-white {
+  --border-opacity: 1;
+  border-color: #fff;
+  border-color: rgba(255, 255, 255, var(--border-opacity));
+}
+
+.bg-ma-gray-3 {
+  &:hover {
+    --bg-opacity: 1;
+    background-color: #999999;
+    background-color: rgba(153, 153, 153, var(--bg-opacity));
+  }
+}
+
+.ma-btn--o,
+#nav-menu .nav-menu__btn,
+#nav-menu .nav-search__btn {
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#nav-menu .nav-search__input {
+  padding-left: 20px;
+  padding-right: 20px;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  outline: 0;
+  border-width: 0;
+  box-shadow: none;
+
+  &::placeholder {
+    font-style: italic;
+  }
+}
+
+#nav-menu .nav-search {
+  max-width: 300px;
+  display: none;
+  height: 40px;
+}
+
+#nav-menu .nav-search--expanded .nav-search__btn {
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #999999;
+  color: rgba(153, 153, 153, var(--text-opacity));
+  --border-opacity: 1;
+  border-color: #fff;
+  border-color: rgba(255, 255, 255, var(--border-opacity));
+}
+
+#nav-menu .nav-search__btn {
+  height: auto;
+  width: 45px;
+  flex-shrink: 0;
+  --text-opacity: 1;
+  color: #c9c9c9;
+  color: rgba(201, 201, 201, var(--text-opacity));
+}
+
+.navmenu-item {
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 60px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 150ms ease-in, box-shadow 0ms linear 150ms;
+}
+
+#nav-menu .group__title,
+.navmenu-item .group__title {
+  font-size: 10px;
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  --text-opacity: 1;
+  color: #4a4a4a;
+  color: rgba(74, 74, 74, var(--text-opacity));
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#nav-menu .group__link,
+.navmenu-item .group__link {
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  --text-opacity: 1;
+  color: #999999;
+  color: rgba(153, 153, 153, var(--text-opacity));
+  font-weight: 500;
+}
+
+#nav-menu {
+  .nav-menu__header {
+    --bg-opacity: 1;
+    background-color: #f7f7f7;
+    background-color: rgba(247, 247, 247, var(--bg-opacity));
+  }
+
+  .nav-menu__btn,
+  .nav-search__btn {
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    transition-duration: 200ms;
+    transition-property: background-color, border-color, color;
+    transition-timing-function: ease;
+  }
+
+  .nav-menu__btn {
+    display: none;
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+    --text-opacity: 1;
+    color: #4a4a4a;
+    color: rgba(74, 74, 74, var(--text-opacity));
+    font-weight: 600;
+
+    &:hover {
+      --bg-opacity: 1;
+      background-color: #e9e9e9;
+      background-color: rgba(233, 233, 233, var(--bg-opacity));
+      --border-opacity: 1;
+      border-color: #e9e9e9;
+      border-color: rgba(233, 233, 233, var(--border-opacity));
+    }
+  }
+
+  .nav-menu__btn--cta {
+    border-style: none;
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255, 255, 255, var(--text-opacity));
+    background-color: #67c7d8;
+    color: #fff;
+
+    &:hover:not(:disabled) {
+      background-color: #227584;
+      color: #fff;
+    }
+  }
+}
+
+#nav-menu button {
+  outline: none !important;
+}
+
+#nav-menu span {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  --text-opacity: 1;
+  color: #4a4a4a;
+  color: rgba(74, 74, 74, var(--text-opacity));
+  font-weight: 600;
+}
+
+#nav-menu .group__title:hover,
+#nav-menu .group__link:hover,
+#nav-menu .nav-menu__link span:hover,
+#nav-menu .nav-menu__link:hover {
+  --text-opacity: 1;
+  color: #67c7d8;
+  color: rgba(103, 199, 216, var(--text-opacity));
+}
+
+.mobile-menu#nav-menu .nav-menu__dropdown--active {
+  transform: translateX(0);
+  overflow: auto;
+}
+
+.mobile-menu#nav-menu .learn-mobile-menu.open-menu,
+.mobile-menu#nav-menu .marketplace-submenu.open-menu {
+  transform: translateX(0);
+  overflow: auto;
+  transition: transform 150ms ease-in;
+}
+
+@media (min-width: 1024px) {
+  body.open-mobile-menu {
+    overflow: auto !important;
+  }
+
+  #nav-menu .nav-menu__dropdown--active {
+    display: none !important;
+  }
+
+  #nav-menu .nav-menu__dropdown-trigger,
+  #nav-menu .nav-menu__link,
+  #nav-menu .nav-menu__btn,
+  #nav-menu .nav-search {
+    display: flex;
+  }
+
+  #nav-menu .group__title,
+  #nav-menu .group__link {
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #nav-menu .group__link {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .navmenu-item > div {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .navmenu-item {
+    top: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #nav-menu .nav-menu__header {
+    & > :first-child {
+      & > :nth-child(n + 2) {
+        display: none;
+      }
+    }
+  }
+}
